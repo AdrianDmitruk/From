@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    padding-left: 10px;
+}
+
+.container h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.name {
+    width: 300px;
+    height: 35px;
+    font-size: 21px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.date {
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 87px;
+    margin-right: 8px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 190, 190);
+    text-align: center;
+    font-size: 18px;
+}
+
+.boot1 {
+    width: 300px;
+    height: 35px;
+    font-size: 21px;
+    margin-bottom: 10px;
+    background-color: rgb(25, 192, 25);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.boot2 {
+    width: 300px;
+    height: 35px;
+    font-size: 21px;
+    margin-bottom: 10px;
+    background-color: rgb(25, 94, 221);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+span {
+    display: inline-block;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
